@@ -36,7 +36,7 @@ license_noconflict  gobject-introspection \
                     rust \
                     vala
 
-set pyversion 2.7
+set pyversion 3.7
 depends_run         port:python[join [split ${pyversion} "."] ""]
 
 # cargo does not build on 10.7 or earlier
